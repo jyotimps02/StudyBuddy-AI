@@ -1,0 +1,1 @@
+console.log("StudyBuddy AI is alive 🧠");
