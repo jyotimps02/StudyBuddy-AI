@@ -6,12 +6,29 @@
     <title>StudyBuddy AI</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <div class="container">
+<body>
+    <header>
         <h1>StudyBuddy AI 🧠</h1>
         <p>Your personal AI study assistant.</p>
-    </div>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Ask StudyBuddy</h2>
+
+            <textarea
+                id="question"
+                placeholder="Ask me anything about your studies..."
+            ></textarea>
+
+            <button id="askButton">Ask AI</button>
+
+            <div id="response">
+                Your answer will appear here...
+            </div>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
